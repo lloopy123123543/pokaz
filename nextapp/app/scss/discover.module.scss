@@ -1,0 +1,33 @@
+.block{
+    margin-top: 100px;
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+}
+.blocks{
+    margin-top: 100px;
+    display: flex;
+}
+.box{
+
+    padding: 5px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    
+
+}
+.shadow{
+    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
+    border-radius: 15px;
+}
+.secondImage{
+    position: absolute;
+    margin-left: 14%;
+    margin-top: -2%;
+    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
+    border-radius: 15px;
+}

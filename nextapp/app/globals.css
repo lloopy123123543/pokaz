@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Source+Sans+3:wght@200;300;400;500;600;700&display=swap');
+
 .main{
   content: "";
   background-image: url("/assets/images/grid.svg");
@@ -27,6 +28,10 @@ button {
   /* отображаем курсор в виде руки при наведении; некоторые
   считают, что необходимо оставлять стрелочный вид для кнопок */
   cursor: pointer;
+}
+p{
+  color:#8894A0;
+  font-size: 20px;
 }
 .gradient{
   height: fit-content;

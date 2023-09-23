@@ -1,4 +1,4 @@
-$mainColor : "#0A2540";
+@import "./config.scss";
 
 .header{
     display: flex;
@@ -23,18 +23,19 @@ $mainColor : "#0A2540";
     gap: 20px;
     align-items: center;
     justify-content: center;
-}
-.sideBlock button{
-    background-color: $mainColor;
+
+    .button1{
+    background-color: #0A2540;
     color: white;
     padding: 6px 12px 6px 12px;
     border-radius: 16.5px;
     transition: .1s;
 }
-.sideBlock button:hover{
+.sideBlock .button1:hover{
     background-color: white;
     border: 2px solid #0A2540;
     color: #0A2540;
 
+}
 }
 }

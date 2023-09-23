@@ -1,13 +1,10 @@
-$mainColor : "#0A2540";
+@import "./config.scss";
 
 .block{
     width: 70%;
 
     h1{
         font-size: 50px;
-    }
-    p{
-        font-size: 20px;
     }
     button{
         margin-left: 10px;

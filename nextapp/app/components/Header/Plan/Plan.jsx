@@ -1,5 +1,5 @@
 import React from 'react'
-import stylePlan from "./plan.module.scss"
+import stylePlan from "../../../scss/plan.module.scss"
 
 export default function Plan() {
   return (
