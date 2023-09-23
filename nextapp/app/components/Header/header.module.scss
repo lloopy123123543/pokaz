@@ -1,0 +1,40 @@
+$mainColor : "#0A2540";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 10px;
+
+
+    .col{
+    color: $mainColor;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.sideBlock{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sideBlock button{
+    background-color: $mainColor;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    border-radius: 16.5px;
+    transition: .1s;
+}
+.sideBlock button:hover{
+    background-color: white;
+    border: 2px solid #0A2540;
+    color: #0A2540;
+
+}
+}

@@ -1,0 +1,22 @@
+$mainColor : "#0A2540";
+
+.block{
+    width: 70%;
+
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 6px 12px 6px 12px;
+    background-color: #0A2540;
+    border-radius: 16.5px;
+    transition: .1s;
+    color: white;
+    }
+}
+
