@@ -1,9 +1,13 @@
 import React from 'react'
 import DiscoverStyles from "@/app/scss/discover.module.scss"
+import Grid from '../Grid/Grid'
 
 export default function Discover() {
   return (
     <div>
+
+
+<div style={{zIndex:10}}>
             <div className={DiscoverStyles.block}>
         <div>
             <h1>Get discovered by any business using Stripe</h1>
@@ -33,6 +37,7 @@ export default function Discover() {
             <img className={DiscoverStyles.shadow} src='https://images.ctfassets.net/fzn2n1nzq965/5MEvaEyB3cEvr5moRvbJCG/e353b4cd9689487daeb98d0a0b13317b/xero1.svg?q=80&amp;w=1620'></img>
             <img className={DiscoverStyles.secondImage} src='https://images.ctfassets.net/fzn2n1nzq965/6PiRXSScbxnpn06iCSmCuB/4d855b7ed508d28bbf94f5fb42dcaa6a/xero2.svg?q=80&amp;w=1350'></img>
         </div>
+    </div>
     </div>
     </div>
   )

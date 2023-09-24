@@ -1,0 +1,54 @@
+
+.main{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.slider{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+
+}
+.button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .25s;
+    
+}
+
+.button_active{
+    background-color: black;
+    color: white;
+}
+.topChooser{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    transition: .25s;
+    background-size: cover;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
+
+
+
+}
+
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+}

@@ -1,0 +1,39 @@
+
+.Section__masked {
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+}
+
+
+.Guides__container {
+    display: grid;
+    grid: 1fr/repeat(4,1fr);
+    z-index: -1;
+
+    position: absolute;
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+.Guides__guide {
+    width: 1px;
+    background: linear-gradient(180deg,rgba(66,71,112,0.09),rgba(66,71,112,0.09) 50%,transparent 0,transparent);
+    background-size: 1px 8px;
+
+}
+.Guides__guide__straight{
+    background-color: rgba(66,71,112,0.06);
+    width: 1px;
+
+}
+.Guides__guide__straight__end{
+    position: absolute;
+    display: flex;
+    background-color: rgba(66,71,112,0.06);
+    width: 1px;
+    top: 0;
+    right: 0;
+
+}

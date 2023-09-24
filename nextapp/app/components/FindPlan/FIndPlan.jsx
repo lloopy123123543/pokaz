@@ -1,8 +1,11 @@
 import React from 'react'
 import FindPlanStyle from "@/app/scss/FindPlan.module.scss"
+import Grid from '../Grid/Grid'
 export default function FIndPlan() {
   return (
-    <div className={FindPlanStyle.block}>
+    <div>
+
+            <div style={{zIndex:10}} className={FindPlanStyle.block}>
         <h1>Find the right plan to meet your needs</h1>
         <p>Choose the right level of guidance to help you grow yout business with Stripe.</p>
         <div className={FindPlanStyle.boxes}>
@@ -23,6 +26,7 @@ export default function FIndPlan() {
             </div>
 
         </div>
+    </div>
     </div>
   )
 }

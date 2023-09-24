@@ -1,8 +1,12 @@
 import React from 'react'
 import CallBackStyles from "@/app/scss/callBack.module.scss"
+import Grid from '../Grid/Grid'
 export default function CallBack() {
   return (
-    <div className={CallBackStyles.blocks}>
+    <div>
+
+
+<div style={{zIndex:10}} className={CallBackStyles.blocks}>
     <div className={CallBackStyles.box}>
         <div>
         <h2>Reach more than one million Stripe users</h2>
@@ -22,5 +26,6 @@ export default function CallBack() {
     </div>
 
 </div>
+    </div>
   )
 }
