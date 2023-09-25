@@ -13,8 +13,8 @@ export default function FIndPlan() {
         <div className={FindPlanStyle.boxes}>
             <div className={FindPlanStyle.box}>
                 <h3>Начальный</h3>
-                <h2>Priority support for your fast-growing startup</h2>
-                <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
+                <h2>Тариф Начальный: Ваш стартовый успех</h2>
+                <p>Наш тариф Начальный - идеальный способ начать и достичь успеха без лишних затрат.</p>
             </div>
             <div className={FindPlanStyle.box}>
                 <h3>Профессиональный</h3>
