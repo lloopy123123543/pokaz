@@ -20,7 +20,7 @@ export default function Header() {
         <div className={stylesHeader.col}><a>Цены</a></div>
       </div>
       <div className={stylesHeader.sideBlock}>
-        <button>Профиль</button>
+        <button>Кабинет</button>
       </div>
     </div>
     </Grid>

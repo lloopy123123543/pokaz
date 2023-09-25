@@ -1,13 +1,13 @@
-
-.block{
+.blocks{
     padding-top: 128px;
     padding-bottom: 128px;
-    width: 100%;
-    text-align: start;
-}
-.blocks{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.block{
+
+    width: 100%;
+    text-align: start;
 }
 .box{
     height: 100%;

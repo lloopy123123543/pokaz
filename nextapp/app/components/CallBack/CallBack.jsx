@@ -14,9 +14,9 @@ export default function CallBack() {
 </div>
 <div className={CallBackStyles.sub_box}>
     <form className={CallBackStyles.form}>
-        <label>ФИО</label>
+        <label>Имя</label>
         <input ></input>
-        <label>Номер телефона</label>
+        <label>Телефон</label>
         <input></input>
         <button>Отправить</button>
     </form>

@@ -8,18 +8,27 @@ import FIndPlan from './components/FindPlan/FIndPlan'
 import CallBack from './components/CallBack/CallBack'
 import Table from './components/Table/Table'
 import Slider from './components/Slider/Slider'
+import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Header/>
-      <Plan/>
-      <Discover/>
-      <Slider/>
-      <FIndPlan/>
-      <Table/>
-      <CallBack/>
-      <Header/>
+    <main className={styles.cont}>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}><Header/></div></div>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}>      <Plan/></div></div>
+      <div className={styles.cont} style={{}}> <div className={styles.main}>     <Discover/></div></div>
+      <div className={styles.cont} style={{}}> <div className={styles.main}>      <Slider/></div></div>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}>        <FIndPlan/></div></div>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}>      <Table/></div></div>
+      <div className={styles.cont} style={{}}> <div className={styles.main}>      <CallBack/></div></div>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}>      <Footer/></div></div>
+
+
+ 
+
+
+
+
+
     </main>
   )
 }

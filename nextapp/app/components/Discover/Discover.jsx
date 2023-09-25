@@ -5,7 +5,7 @@ import Grid from '../Grid/Grid'
 export default function Discover() {
   return (
     <Grid>
-        <div style={{zIndex:10}}>
+        <div>
             <div className={DiscoverStyles.block}>
 
             <h1>Get discovered by any business using Stripe</h1>

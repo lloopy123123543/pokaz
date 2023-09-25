@@ -3,20 +3,27 @@
 
 
 .header {
-    display: flex;
-    justify-content: space-between;
     max-width: 1080px;
     width: 100%;
     min-height: 10px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    .citata{
+        padding-left: 16px;
+        color: #364657;
+        font-size: 15px;
+    }
+
+
 
     .col {
         color: $mainColor;
         padding-top: 19px;
         padding-bottom: 19px;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        text-align: center;
         height: 100%;
 
         a{
@@ -30,7 +37,6 @@
         display: flex;
         gap: 20px;
         align-items: center;
-        justify-content: center;
         padding-left: 16px;
         padding-right: 16px;
 
