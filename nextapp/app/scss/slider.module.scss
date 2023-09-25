@@ -1,32 +1,42 @@
 
 .main{
     padding-top: 128px;
-    padding-bottom: 128px;
 }
 .slider{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     gap: 20px;
 
 }
 .button{
     cursor: pointer;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 6px 18px 6px 18px;
+    border-radius: 16.5px;
     transition: .25s;
     
 }
-
+.text{
+    padding-left: 16px;
+    padding-right: 32px;
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+        color: #425466;
+    }
+}
 .button_active{
     background-color: black;
     color: white;
 }
 .topChooser{
+    padding-left: 16px;
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    padding: 40px;
+    padding-bottom: 32px;
 }
 
 .image{
@@ -35,8 +45,8 @@
     min-height: 400px;
     transition: .25s;
     background-size: cover;
-    border-radius: 15px;
-    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
+    border-radius: 8px;
+    box-shadow: 0 40px 81px -16px rgba(50,50,93,.25), 0 24px 48px -24px rgba(0,0,0,.3);
 
 
 

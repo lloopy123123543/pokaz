@@ -6,31 +6,40 @@
     width: 100%;
     min-height: 10px;
 
+
     .col {
         color: $mainColor;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        cursor: pointer;
+        padding-top: 19px;
+        padding-bottom: 19px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         height: 100%;
+
+        a{
+            cursor: pointer;
+        }
+        a:hover{
+            color: gray;
+        }
     }
     .sideBlock {
         display: flex;
         gap: 20px;
         align-items: center;
         justify-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
 
-        .button1 {
+        button {
             background-color: black;
             color: white;
-            padding: 6px 12px 6px 12px;
-            border-radius: 16.5px;
+            padding: 6px 18px 6px 18px;
             transition: 0.1s;
+            border-radius: 16.5px;
         }
-        .sideBlock .button1:hover {
+        .sideBlock button:hover {
             background-color: white;
             border: 2px solid black;
             color: black;

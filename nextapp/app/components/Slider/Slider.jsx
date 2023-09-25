@@ -25,9 +25,9 @@ export default function Slider() {
         </div>
 
         <div className={sliderStyles.slider}>
-        <div>
-            <h4>{Posts[Buttons-1].title}</h4>
-            <div>{Posts[Buttons-1].text}</div>
+        <div className={sliderStyles.text}>
+            <h1>{Posts[Buttons-1].title}</h1>
+            <p>{Posts[Buttons-1].text}</p>
         </div>
         <div  style={{ background:`url("/assets/images/image${Buttons}.png")`, backgroundSize:"cover"}} className={sliderStyles.image}>
 

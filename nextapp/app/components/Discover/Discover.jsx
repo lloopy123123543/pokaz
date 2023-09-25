@@ -9,14 +9,14 @@ export default function Discover() {
 
 <div style={{zIndex:10}}>
             <div className={DiscoverStyles.block}>
-        <div>
+        <div className={DiscoverStyles.block}>
             <h1>Get discovered by any business using Stripe</h1>
             <p>While you can deploy an app prevately for your team, you can also list an app on the Stripe App Marketplace, where anyone with a Stripe accound can install it.</p>
         </div>
     </div>
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
-            <div>
+            <div className={DiscoverStyles.text_box}>
             <h2>Reach more than one million Stripe users</h2>
             <p>Creating an app for Stripe can get your product in front of new audiences. Users can install your app from the App Marketplace and use it right in the Stripe Dashboard, in a highly visible app drawer.</p>
             </div>
@@ -30,8 +30,10 @@ export default function Discover() {
 
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
+        <div className={DiscoverStyles.text_box}>
             <h2>Reach more than one million Stripe users</h2>
             <p>Creating an app for Stripe can get your product in front of new audiences. Users can install your app from the App Marketplace and use it right in the Stripe Dashboard, in a highly visible app drawer.</p>
+            </div>
         </div>
         <div className={DiscoverStyles.box}>
             <img className={DiscoverStyles.shadow} src='https://images.ctfassets.net/fzn2n1nzq965/5MEvaEyB3cEvr5moRvbJCG/e353b4cd9689487daeb98d0a0b13317b/xero1.svg?q=80&amp;w=1620'></img>

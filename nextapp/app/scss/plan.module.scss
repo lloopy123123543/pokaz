@@ -1,15 +1,17 @@
 @import "./config.scss";
 
 .block{
-    width: 70%;
+    padding-top: 128px;
+    padding-left: 16px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 
     h1{
         font-size: 50px;
     }
     button{
-        margin-left: 10px;
         margin-top: 10px;
-        padding: 6px 12px 6px 12px;
+        padding: 6px 18px 6px 18px;
     background-color: black;
     border-radius: 16.5px;
     transition: .1s;
