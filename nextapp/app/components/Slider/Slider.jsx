@@ -16,9 +16,8 @@ export default function Slider() {
     }, [Buttons])
     
   return (
-    <div>
-
-<div style={{zIndex:10}} className={sliderStyles.main} >
+    <Grid>
+        <div className={sliderStyles.main} >
         <div className={sliderStyles.topChooser}>
             <div onClick={()=>{setButtons(1)}}  className={`${sliderStyles.button} ${Buttons === 1 ? sliderStyles.button_active : sliderStyles.button}`}>Картинка 1</div>
             <div onClick={()=>{setButtons(2)}}  className={`${sliderStyles.button} ${Buttons === 2 ? sliderStyles.button_active : sliderStyles.button}`}>Картинка 2</div>
@@ -35,6 +34,6 @@ export default function Slider() {
 
         </div>
     </div>
-    </div>
+    </Grid>
   )
 }

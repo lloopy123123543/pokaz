@@ -4,15 +4,12 @@ import Grid from '../Grid/Grid'
 
 export default function Discover() {
   return (
-    <div>
-
-
-<div style={{zIndex:10}}>
+    <Grid>
+        <div style={{zIndex:10}}>
             <div className={DiscoverStyles.block}>
-        <div className={DiscoverStyles.block}>
+
             <h1>Get discovered by any business using Stripe</h1>
             <p>While you can deploy an app prevately for your team, you can also list an app on the Stripe App Marketplace, where anyone with a Stripe accound can install it.</p>
-        </div>
     </div>
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
@@ -41,6 +38,7 @@ export default function Discover() {
         </div>
     </div>
     </div>
-    </div>
+    </Grid>
+
   )
 }

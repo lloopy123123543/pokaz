@@ -3,10 +3,9 @@ import FindPlanStyle from "@/app/scss/FindPlan.module.scss"
 import Grid from '../Grid/Grid'
 export default function FIndPlan() {
   return (
-    <div>
-        <Grid/>
-        
-        <div style={{zIndex:10}} className={FindPlanStyle.block}>
+    <Grid>
+           
+           <div style={{zIndex:10}} className={FindPlanStyle.block}>
             <div className={FindPlanStyle.text}>
             <h1>Find the right plan to meet your needs</h1>
         <p>Choose the right level of guidance to help you grow yout business with Stripe.</p>
@@ -27,14 +26,10 @@ export default function FIndPlan() {
                 <h2>Priority support for your fast-growing startup</h2>
                 <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
             </div>
-            <div className={FindPlanStyle.box}>
-                <h3>Growth</h3>
-                <h2>Priority support for your fast-growing startup</h2>
-                <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
-            </div>
+
 
         </div>
     </div>
-    </div>
+    </Grid>
   )
 }

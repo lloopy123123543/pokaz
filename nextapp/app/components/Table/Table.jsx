@@ -3,10 +3,8 @@ import tableStyles from "@/app/scss/table.module.scss"
 import Grid from '../Grid/Grid'
 export default function Table() {
   return (
-    <div>
-
-
-<div style={{zIndex:10}} className={tableStyles.table}>
+    <Grid>
+      <div style={{zIndex:10}} className={tableStyles.table}>
         <div className={tableStyles.leftTitles}>
         <div className={tableStyles.col_left_inside}>Стоимость</div>
         <div className={tableStyles.col_left_inside_color}>Кол-во анализов</div>
@@ -81,6 +79,6 @@ export default function Table() {
         </div>
 
     </div>
-    </div>
+    </Grid>
   )
 }
