@@ -10,14 +10,21 @@
 }
 .box{
     padding-top: 128px;
-
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
+}
+.image{
+    width: 100%;
+    height: 343px;
+    box-shadow: 0 40px 81px -16px rgba(50,50,93,.25), 0 24px 48px -24px rgba(0,0,0,.3);
+    border-radius: 9px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
     
-
 }
 .text_box{
     padding-left: 16px;
@@ -36,8 +43,9 @@
 }
 .secondImage{
     position: absolute;
-    margin-left: 14%;
-    margin-top: -2%;
+    width: 244px;
+    height: 451px;
     box-shadow: 0 40px 81px -16px rgba(50,50,93,.25), 0 24px 48px -24px rgba(0,0,0,.3);
     border-radius: 9px;
+    margin-right: 25px;
 }

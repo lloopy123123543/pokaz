@@ -4,7 +4,7 @@ import Grid from '../Grid/Grid'
 export default function CallBack() {
   return (
     <Grid>
-        <div style={{zIndex:10}} className={CallBackStyles.blocks}>
+        <div id='contacts' style={{zIndex:10}} className={CallBackStyles.blocks}>
 
 <div className={CallBackStyles.box}>
     <div className={CallBackStyles.text}>

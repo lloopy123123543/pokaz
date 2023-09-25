@@ -19,7 +19,7 @@ export default function Discover() {
             </div>
         </div>
         <div className={DiscoverStyles.box}>
-            <img className={DiscoverStyles.shadow} src='https://images.ctfassets.net/fzn2n1nzq965/5MEvaEyB3cEvr5moRvbJCG/e353b4cd9689487daeb98d0a0b13317b/xero1.svg?q=80&amp;w=1620'></img>
+            <div style={{background:`url("/assets/images/xero1.svg`}} className={DiscoverStyles.image}></div>
 
         </div>
 
@@ -33,8 +33,9 @@ export default function Discover() {
             </div>
         </div>
         <div className={DiscoverStyles.box}>
-            <img className={DiscoverStyles.shadow} src='https://images.ctfassets.net/fzn2n1nzq965/5MEvaEyB3cEvr5moRvbJCG/e353b4cd9689487daeb98d0a0b13317b/xero1.svg?q=80&amp;w=1620'></img>
-            <img className={DiscoverStyles.secondImage} src='https://images.ctfassets.net/fzn2n1nzq965/6PiRXSScbxnpn06iCSmCuB/4d855b7ed508d28bbf94f5fb42dcaa6a/xero2.svg?q=80&amp;w=1350'></img>
+        <div style={{background:`url("/assets/images/xero1.svg`}} className={DiscoverStyles.image}>
+        <div style={{background:`url("/assets/images/xero2.svg`}} className={DiscoverStyles.secondImage}></div>
+        </div>
         </div>
     </div>
     </div>
