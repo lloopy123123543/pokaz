@@ -8,8 +8,8 @@ export default function CallBack() {
 
 <div className={CallBackStyles.box}>
     <div className={CallBackStyles.text}>
-    <h2>Reach more than one million Stripe users</h2>
-    <p>Creating an app for Stripe can get your product in front of new audiences. Users can install your app from the App Marketplace and use it right in the Stripe Dashboard, in a highly visible app drawer.</p>
+    <h2>Свяжитесь с нами для быстрой поддержки</h2>
+    <p>Быстрая и эффективная поддержка - просто свяжитесь с нами для решения ваших вопросов и проблем.</p>
     </div>
 </div>
 <div className={CallBackStyles.sub_box}>
