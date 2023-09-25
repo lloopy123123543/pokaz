@@ -31,13 +31,13 @@
     }
 }
 .shadow{
-    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
-    border-radius: 15px;
+    box-shadow: 0 40px 81px -16px rgba(50,50,93,.25), 0 24px 48px -24px rgba(0,0,0,.3);
+    border-radius: 9px;
 }
 .secondImage{
     position: absolute;
     margin-left: 14%;
     margin-top: -2%;
-    filter: drop-shadow(0 0 0.75rem rgb(142, 141, 141));
-    border-radius: 15px;
+    box-shadow: 0 40px 81px -16px rgba(50,50,93,.25), 0 24px 48px -24px rgba(0,0,0,.3);
+    border-radius: 9px;
 }
