@@ -13,13 +13,15 @@ export default function CallBack() {
     </div>
 </div>
 <div className={CallBackStyles.sub_box}>
-    <form className={CallBackStyles.form}>
+  <div>
+  <form className={CallBackStyles.form}>
         <label>Имя</label>
         <input ></input>
         <label>Телефон</label>
         <input></input>
         <button>Отправить</button>
     </form>
+  </div>
 
 
 </div>
