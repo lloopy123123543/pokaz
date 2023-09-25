@@ -14,10 +14,10 @@ export default function Header() {
     <div className={stylesHeader.header}>
       <div className={stylesHeader.sideBlock}>
         <div className={stylesHeader.col}>
-          <Image alt='logo' width={90} height={30} src={"/assets/images/logotype.png"}></Image>
+         <a href="#start"> <Image alt='logo' width={90} height={30} src={"/assets/images/logotype.png"}></Image></a>
         </div>
-        <div className={stylesHeader.col}><a>Описание</a></div>
-        <div className={stylesHeader.col}><a>Цены</a></div>
+        <div className={stylesHeader.col}><a href='#about'>Описание</a></div>
+        <div className={stylesHeader.col}><a href='#price'>Цены</a></div>
       </div>
       <div className={stylesHeader.sideBlock}>
         <button>Кабинет</button>

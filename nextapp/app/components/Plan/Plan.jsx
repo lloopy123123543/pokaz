@@ -5,7 +5,7 @@ import Grid from '../Grid/Grid'
 export default function Plan() {
   return (
     <Grid>
-                <div style={{zIndex:10}} className={stylePlan.block}>
+                <div id='start' style={{zIndex:10}} className={stylePlan.block}>
 
 <div>
 <h1>Fix issues fast and get expert insights for your business</h1>

@@ -5,7 +5,7 @@ export default function FIndPlan() {
   return (
     <Grid>
            
-           <div style={{zIndex:10}} className={FindPlanStyle.block}>
+           <div id="price" style={{zIndex:10}} className={FindPlanStyle.block}>
             <div className={FindPlanStyle.text}>
             <h1>Find the right plan to meet your needs</h1>
         <p>Choose the right level of guidance to help you grow yout business with Stripe.</p>
