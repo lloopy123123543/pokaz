@@ -20,9 +20,9 @@ export default function Table() {
         </div>
         <div>
             <div className={tableStyles.cols}>
-                <div><h3>Стандарт</h3></div>
-                <div><h3>Профи</h3></div>
-                <div><h3>Корпорат</h3></div>
+                <div><h3>Начальный</h3></div>
+                <div><h3>Профессиональный</h3></div>
+                <div><h3>Корпоративный</h3></div>
             </div>
             <div className={tableStyles.table_inside}>
 

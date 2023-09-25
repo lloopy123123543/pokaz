@@ -12,17 +12,17 @@ export default function FIndPlan() {
             </div>
         <div className={FindPlanStyle.boxes}>
             <div className={FindPlanStyle.box}>
-                <h3>Growth</h3>
+                <h3>Начальный</h3>
                 <h2>Priority support for your fast-growing startup</h2>
                 <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
             </div>
             <div className={FindPlanStyle.box}>
-                <h3>Growth</h3>
+                <h3>Профессиональный</h3>
                 <h2>Priority support for your fast-growing startup</h2>
                 <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
             </div>
             <div className={FindPlanStyle.box}>
-                <h3>Growth</h3>
+                <h3>Корпоративный</h3>
                 <h2>Priority support for your fast-growing startup</h2>
                 <p>Talk to the same team whenever you need help. Your support team knows your integration and gives you extra attention to solve issues, faster.</p>
             </div>
