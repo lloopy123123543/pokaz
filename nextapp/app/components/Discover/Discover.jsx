@@ -8,8 +8,8 @@ export default function Discover() {
         <div id="about">
             <div className={DiscoverStyles.block}>
 
-            <h1>Get discovered by any business using Stripe</h1>
-            <p>While you can deploy an app prevately for your team, you can also list an app on the Stripe App Marketplace, where anyone with a Stripe accound can install it.</p>
+            <h1>Простота использования: Мощные функции без сложностей</h1>
+            <p>Удобные и интуитивно понятные функции нашего сервиса помогут вам достичь результатов без лишних сложностей. Начните использовать наш сервис и получите доступ к мощным инструментам уже сегодня!</p>
     </div>
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
