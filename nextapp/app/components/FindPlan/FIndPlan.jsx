@@ -7,8 +7,8 @@ export default function FIndPlan() {
            
            <div id="price" style={{zIndex:10}} className={FindPlanStyle.block}>
             <div className={FindPlanStyle.text}>
-            <h1>Find the right plan to meet your needs</h1>
-        <p>Choose the right level of guidance to help you grow yout business with Stripe.</p>
+            <h1>Гибкие тарифы для всех</h1>
+        <p>Наши гибкие тарифы позволят каждому найти подходящий вариант для своих потребностей и бюджета.</p>
             </div>
         <div className={FindPlanStyle.boxes}>
             <div className={FindPlanStyle.box}>
