@@ -14,8 +14,8 @@ export default function Discover() {
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
             <div className={DiscoverStyles.text_box}>
-            <h2>Reach more than one million Stripe users</h2>
-            <p>Creating an app for Stripe can get your product in front of new audiences. Users can install your app from the App Marketplace and use it right in the Stripe Dashboard, in a highly visible app drawer.</p>
+            <h2>Простое создание коллекции товаров без сложностей. </h2>
+            <p>Максимальная функциональность при минимальных сложностях - узнайте, как без проблем создавать коллекцию товаров на нашем сайте.</p>
             </div>
         </div>
         <div className={DiscoverStyles.box}>
@@ -28,8 +28,8 @@ export default function Discover() {
     <div className={DiscoverStyles.blocks}>
         <div className={DiscoverStyles.box}>
         <div className={DiscoverStyles.text_box}>
-            <h2>Reach more than one million Stripe users</h2>
-            <p>Creating an app for Stripe can get your product in front of new audiences. Users can install your app from the App Marketplace and use it right in the Stripe Dashboard, in a highly visible app drawer.</p>
+            <h2>Легкий подбор товаров для закупки без хлопот. </h2>
+            <p>Эффективно подбирайте товары для закупки с минимальными усилиями на нашем сайте. Оптимизируйте процесс закупок с помощью простых инструментов подбора товаров.</p>
             </div>
         </div>
         <div className={DiscoverStyles.box}>
