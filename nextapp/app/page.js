@@ -9,11 +9,14 @@ import CallBack from './components/CallBack/CallBack'
 import Table from './components/Table/Table'
 import Slider from './components/Slider/Slider'
 import Footer from './components/Footer/Footer'
+import HorizontalGrid from './components/horizontalGrid/HorizontalGrid'
 
 export default function Home() {
   return (
     <main className={styles.cont}>
-      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}><Header/></div></div>
+      <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}><Header/></div>
+      </div>
+      <div className={styles.cont}><HorizontalGrid/></div>
       <div className={styles.cont} style={{backgroundColor:"#F6F9FC"}}> <div className={styles.main}>      <Plan/></div></div>
       <div className={styles.cont} style={{}}> <div className={styles.main}>     <Discover/></div></div>
       <div className={styles.cont} style={{}}> <div className={styles.main}>      <Slider/></div></div>
